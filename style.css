@@ -43,11 +43,11 @@
     font-weight: 400;
 }
 .col-1{
-    margin-top: 70px;
+    margin-top: 60px;
 }
 .hero-section a{
     padding: 13px 40px;
-    background-color: orange;
+    background-image: linear-gradient(#FFA500 , #E96352);
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
