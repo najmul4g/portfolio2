@@ -77,6 +77,7 @@
     color: #000;
     font-size: 19px;
     font-weight: 700;
+    text-transform: capitalize;
     margin: 30px 0 15px;
 }
 .dream-section p{
@@ -95,7 +96,52 @@
     margin-top: 30px;
     display: inline-block;
 }
-.experience-section {
+.experience-section{
     background-image: url("img/exp-bg.png");
     background-repeat: no-repeat;
+    background-position: left center;
+    padding: 20px 0 150px;
+}
+.experience-section #ep-left{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange , tomato) 30;
+}
+.experience-section #ep-right{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue , #7EFCFC) 30;
+}
+.experience-section h2{
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.ep-box{
+    margin-top: 50px;
+    width: 48%;
+    padding: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 10px 10px 40px #0000005b;
+}
+.ep-box h2{
+    font-size: 32px;
+    text-transform: capitalize;
+}
+.ep-box h3{
+    color: orange;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 25px 0 15px;
+}
+.ep-box p{
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+footer{
+    text-align: center;
+    padding: 20px 0;
 }
